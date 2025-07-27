@@ -27,3 +27,19 @@ Other Features: Media file handling, admin control panel, custom filters
 ✅ SEO-Friendly URLs and Clean Codebase
 
 ✅ Responsive Design for all Devices
+
+
+🚀 Getting Started
+To run this project locally:
+
+bash
+Copy
+Edit
+git clone https://github.com/Raiyan Nodoliya/AdvanceEcommerce.git
+cd AdvanceEcommerce
+pip install -r requirements.txt
+python manage.py migrate
+
+
+
+python manage.py runserver
