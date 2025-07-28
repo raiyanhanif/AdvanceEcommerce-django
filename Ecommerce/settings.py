@@ -77,6 +77,8 @@ WSGI_APPLICATION = 'Ecommerce.wsgi.application'
 AUTH_USER_MODEL ='accounts.Account'
 
 
+
+
 # Database
 # https://docs.djangoproject.com/en/5.2/ref/settings/#databases
 
@@ -136,6 +138,14 @@ STATICFILES_DIRS = [
 MEDIA_URL = '/media/'
 
 MEDIA_ROOT = BASE_DIR / 'media'
+
+
+#  popup showing registration successfully! bootstrap mein se liya he
+from django.contrib.messages import constants as messages
+
+MESSAGE_TAGS = {
+    messages.ERROR: "danger",
+}
 
 
 # Default primary key field type
